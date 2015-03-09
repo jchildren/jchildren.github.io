@@ -1,5 +1,6 @@
 ---
-Title: Contact
+title: Contact
+group: "navigation"
 ---
 
 John Children!

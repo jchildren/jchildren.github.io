@@ -1,5 +1,6 @@
 ---
-Title: About
+title: Projects
+group: "navigation"
 ---
 
 #About!
