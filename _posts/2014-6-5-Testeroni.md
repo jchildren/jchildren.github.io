@@ -1,5 +1,5 @@
 ---
-title: Test Post
+title: Test Post2
 layout: posts
 ---
 
