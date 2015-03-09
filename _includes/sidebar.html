@@ -1,12 +1,19 @@
 <div class="row-fluid">
-  <div class="col-sm-8">
-    <h1>Home Page</h1>
 
-    <p>Content will go here</p>
-  </div>
-  <div class="col-sm-4">
-    <h3>Sidebar</h3>
+    <h2>About Me</h2>
 
-    <p>Sidebar content goes here.</p>
-  </div>
+
+    <p>Donec libero libero, bibendum non condimentum ac, ullamcorper at sapien.\
+      Duis feugiat urna vel justo cursus facilisis. Vivamus ligula dui, convalli\
+      s a varius vitae, facilisis eget magna.</p>
+
+
+    <h2>Recent Posts</h2>
+
+    <ul>
+      {% for post in site.posts limit: 5 %}
+        <h4><li><a href="{{ post.url }}">{{ post.title }}</a></li></h4>
+      {% endfor %}
+    </ul>
+
 </div>
