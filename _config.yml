@@ -1,3 +1,13 @@
+name: "John Children"
+description: "A personal website"
+
+url: "http://jchildren.github.io/"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+
 highlighter: pygments
 github: [Repository metadata]
 
