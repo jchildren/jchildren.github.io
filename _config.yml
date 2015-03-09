@@ -1,16 +1,15 @@
 name: "John Children"
 description: "A personal website"
+author: "John Children"
 
 url: "http://jchildren.github.io/"
 
-paginate: 10
-
 markdown: rdiscount
 permalink: pretty
-pygments: true
 
 highlighter: pygments
 github: [Repository metadata]
+pagination: false
 
 defaults:
   -
