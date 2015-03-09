@@ -1,5 +1,6 @@
 ---
 Title: About
+Layout: about
 ---
 
 #About!
