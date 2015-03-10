@@ -5,40 +5,14 @@ title: Blog
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <h1>{{ post.title | truncatewords: 20 | capitalize }}</h1>
-  <p class="author">
-    <span class="date">{{ post.date | date: "%m-%d-%Y" }}</span>
-  </p>
-  <div class="content">
-    {{ post.content | truncatewords: 50}}
-    <a href="{{ post.url }}">Read more</a>
-  </div>
+    <h1>{{ post.title | truncatewords: 20 | capitalize }}</h1>
+    <p class="author">
+      <span class="date">{{ post.date | date: "%m-%d-%Y" }}</span>
+    </p>
+    <div class="content">
+      {{ post.content | truncatewords: 50}}
+      <a href="{{ post.url }}">Read more</a>
+    </div>
 {% endfor %}
 
-<!-- Pagination links -->
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a class="btn btn-default btn-lg" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" role="button">&laquo; Prev</a>
-  {% else %}
-    <button type="button" class="btn btn-default btn-lg" disabled="disabled">&laquo; Prev</button>
-  {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <button type="button" class="btn btn-default btn-lg" disabled="disabled">{{ page }}</button>
-    {% elsif page == 1 %}
-      <a class="btn btn-default btn-lg" href="{{ '/blog/index.html' | prepend: site.baseurl | replace: '//', '/' }}" role="button">{{ page }}</a>
-    {% else %}
-      <a class="btn btn-default btn-lg" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" role="button">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-
-    <a class="btn btn-default btn-lg" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" role="button">Next &raquo;</a>
-  {% else %}
-    <button type="button" class="btn btn-default btn-lg" disabled="disabled">Next &raquo;</button>
-  {% endif %}
-</div>
-{% endif %}
+{% include pagination_links.html %}

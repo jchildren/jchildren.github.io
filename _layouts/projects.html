@@ -1,0 +1,17 @@
+{% include globals.html %}
+{% include header.html %}
+
+<div class="row-fluid">
+  <div class="col-sm-8">
+    <div class="jumbotron">
+      <h1>{{ page.title }}</h1>
+      <p>{{ content }}</p>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    {% include sidebar.html %}
+  </div>
+</div>
+
+{% include footer.html %}

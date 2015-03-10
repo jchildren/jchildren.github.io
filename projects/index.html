@@ -1,0 +1,21 @@
+---
+title: Projects
+group: "navigation"
+---
+
+<!-- This loops through the paginated posts -->
+{% for post in site.categories.projects %}
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="jumbotron">
+      <h1>{{ post.title }}</h1>
+      <p><a class="btn btn-primary btn-sm" href="#" role="button">Learn more</a></p>
+    </div>
+  </div>
+  <div class="panel-body">
+    {{ post.content }}
+  </div>
+</div>
+{% endfor %}
+
+{% include pagination_links.html %}

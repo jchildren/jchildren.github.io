@@ -1,6 +1,7 @@
 ---
-title: Test Post5
+title: Test Post1
 layout: posts
+group: blog
 ---
 
 Test post!
