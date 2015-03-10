@@ -1,5 +1,5 @@
 # Ignore built site directory
-_site
+_site/
 
 # Ignore boostrap-core css files
-assets/css/boostrap-core
+assets/css/boostrap-core/
