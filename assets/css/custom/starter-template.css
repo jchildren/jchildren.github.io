@@ -1,11 +1,12 @@
 body {
-  padding-top: 75px;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 .starter-template {
   padding: 40px 15px;
   text-align: center;
 }
-div.pagination {
+div.pagination pagination-lg {
   display: block;
   margin-left: auto;
   margin-right: auto;
