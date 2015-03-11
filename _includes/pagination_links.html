@@ -1,5 +1,6 @@
 <!-- Pagination links -->
 {% if paginator.total_pages > 1 %}
+<div class="navigation paginator">
 <nav>
   <ul class="pagination pagination-lg">
     {% if paginator.previous_page %}
@@ -39,4 +40,5 @@
 
   </ul>
 </nav>
+</div>
 {% endif %}

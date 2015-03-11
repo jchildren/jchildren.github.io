@@ -10,7 +10,7 @@ title: Blog
       <span class="date">{{ post.date | date: "%m-%d-%Y" }}</span>
     </p>
     <div class="content">
-      {{ post.content | truncatewords: 50}}
+      {{ post.content | truncatewords: 150}}
       <a href="{{ post.url }}">Read more</a>
     </div>
 {% endfor %}
