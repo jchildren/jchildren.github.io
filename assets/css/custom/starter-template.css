@@ -12,9 +12,10 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
 }
 .footer.bar {
-  /*padding-bottom: 40px 15px;*/
+  padding: 30px 15px;
   background-color: #3a3b2b;
   color: #ffffff;
 }
