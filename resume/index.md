@@ -3,6 +3,8 @@ title: Resume
 group: "navigation"
 ---
 
+#Coming soon!
+
 Lorem ipsum dolor sit amet, ius at quas nostro, mei viris eleifend aliquando et. Ne justo incorrupte vis, an alia deleniti partiendo per. Sea vero omnis verear no. Sed quas expetendis efficiantur in, pri quas legimus et. Qui ea appetere hendrerit, adhuc petentium reformidans id nec.
 
 Consectetuer interpretaris et sea, eam at quod adipiscing, quis vero explicari ne his. Eum ex omnes menandri, modo dico habeo id per. Ut cum partem viderer. Magna consetetur delicatissimi vim cu, putent electram interesset an eam, volutpat adversarium at vis. An usu nusquam instructior, mei munere option at. In usu dicta movet contentiones.
