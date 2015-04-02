@@ -23,15 +23,14 @@ other. It would have been really nice to have been able to write code like:
 
 {% highlight cpp %}
 
-Graphics mainWindow;
+Graphics mainWindow(window, renderer);
 
-mainWindow.init(window, renderer);
-
-Background menuBackground;
-
-menuBackground.loadImage(fullPath.c_str(), renderer, texture);
+Background menuBackground(fullPath.c_str(), renderer, texture);
 
 {% endhighlight %}
+
+Which would have used class constructors to do almost everything required to
+create a window and renderer then load a texture from a file.
 
 But unfortunately, while this will compile, it won't actually run as the
 load image function won't receive the renderer pointer as it goes out of scope
