@@ -21,7 +21,7 @@ Previously I had attempted to do similar things in SDL, but I did not like the
 lack of support for objects that could pass the various pointers between each
 other. It would have been really nice to have been able to write code like:
 
-{% highlight c++ %}
+{% highlight cpp %}
 
 Graphics mainWindow;
 
