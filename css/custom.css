@@ -12,6 +12,14 @@
 
 }
 
+body {
+  background: url(/image/science-world.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .full-img {
     width: 100%;
 }

@@ -19,7 +19,6 @@
 
   <div class="site-wrapper">
     <div class="site-wrapper-inner">
-      <img src="/image/science-world.jpg" class ="full-img">
       <div class="cover-container">
 
         <body>
@@ -88,10 +87,10 @@
           <footer class="mastfoot">
 
 <div class "control-group">
-    <span class="glyphicon glyphicon-menu-up" aria-hidden="true" id="toggle-footer">
+    <span class="glyphicon glyphicon-menu-up hidden-sm hidden-xs" aria-hidden="true" id="toggle-footer">
 </div>
 
-  <div class="wrapper" id="hideable-footer" style="display:none;">
+  <div class="wrapper" class= "visible-xs-sm" id="hideable-footer" style="display:none;">
 
     <div class="wrapper">
       <div class="col-md-4">
@@ -168,7 +167,11 @@
 <script>
 $(document).ready(function(){
   $("#toggle-footer").click(function(){
-      $("#hideable-footer").slideToggle("slow");
+      $("#hideable-footer").animate({
+        height: "toggle",
+        opacity: "toggle",
+        duration: "slow"
+      });
       $("#toggle-footer").toggleClass("glyphicon glyphicon-menu-down", 1000).toggleClass("glyphicon glyphicon-menu-up", 1000);
 
   });
