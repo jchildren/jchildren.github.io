@@ -1,14 +1,27 @@
-{% include globals.html %}
-{% include header.html %}
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
 
-<div class="container">
+  <div class="site-wrapper">
+    <div class="site-wrapper-inner">
+      <img src="{{ site.baseurl }}/image/science-world.jpg" class ="full-img">
+      <div class="cover-container">
 
-<div class="row">
-  <div class="col-md-12">
-    {{ content }}
+        <body>
+
+
+          {% include header.html %}
+
+          <div class="page-content">
+            <div class="wrapper">
+              {{ content }}
+            </div>
+          </div>
+
+          {% include footer.html %}
+
+        </body>
+      </div>
+    </div>
   </div>
-</div>
-
-</div>
-
-{% include footer.html %}
+</html>

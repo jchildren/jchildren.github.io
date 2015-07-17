@@ -1,40 +1,13 @@
-name: "John Children"
-description: "A personal website"
-author: "John Children"
+# Site settings
+title: jchildren.github.io
+email: j.a.children@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  24 year old physics MSc graduate, working as a web developer in Vancouver.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.john-children.com" # the base hostname & protocol for your site
+twitter_username: jchildren
+github_username:  jchildren
+linkedin_username: johnchildren
 
-url: "http://jchildren.github.io/"
-
-markdown: rdiscount
-permalink: pretty
-
-highlighter: pygments
-github: [Repository metadata]
-
-paginate: 5
-paginate_path: "/blog/page:num/"
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages" # previously `page` in Jekyll 2.2.
-    values:
-      layout: "default" # overrides previous default layout
-  -
-    scope:
-      path: "_posts"
-      type: "posts"
-    values:
-      layout: "posts"
-  -
-    scope:
-      path: "blog"
-      type: "posts" # previously `page` in Jekyll 2.2.
-    values:
-      layout: "default" # overrides previous default layout
-  -
-    scope:
-      path: "projects"
-      type: "pages" # previously `page` in Jekyll 2.2.
-    values:
-      layout: "default" # overrides previous default layout
+# Build settings
+markdown: kramdown

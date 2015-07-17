@@ -1,5 +1,2 @@
-# Ignore built site directory
-_site/
-
-# Ignore boostrap-core css files
-assets/css/boostrap-core/jc
+_site
+.sass-cache
