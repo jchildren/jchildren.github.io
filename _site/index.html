@@ -137,6 +137,7 @@
 <script src="js/bootstrap.min.js"></script>
 
 <script>
+if ( $(window).width() > 769){
 $(document).ready(function(){
   $("#toggle-footer").click(function(){
       $("#hideable-footer").animate({
@@ -158,6 +159,7 @@ $(document).ready(function(){
       }
   },false);
 });
+}
 </script>
 
 </html>

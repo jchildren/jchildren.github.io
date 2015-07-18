@@ -50,6 +50,15 @@ body {
 		margin-top: 0px;
 		margin-bottom: 0px;
 	}
+
+	#hideable-footer {
+	  display:inline;
+	}
+
+	#toggle-footer{
+		display: none;
+	}
+
 }
 
 .full-img {
