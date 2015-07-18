@@ -76,6 +76,11 @@ body {
 		margin-bottom: 0px;
 	}
 
+	.navbar-left{
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+
 	#hideable-footer {
 	  display:inline;
 	}
