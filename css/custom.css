@@ -21,28 +21,39 @@ body {
   background-size: cover;
 }
 
-.list-group-item {
-
-		background: transparent;
-		color: #F2F2F2;
-
-		color: #333;
-		text-shadow: none; /* Prevent inheritence from `body` */
-		border: 1px solid #fff;
-
-		/* CSS Transition */
-		-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
-		-moz-transition: background .2s ease-in-out, border .2s ease-in-out;
-		-ms-transition: background .2s ease-in-out, border .2s ease-in-out;
-		-o-transition: background .2s ease-in-out, border .2s ease-in-out;
-		transition: background .2s ease-in-out, border .2s ease-in-out;
-
+.navbar-left{
+	margin-left: 50px;
+	margin-top: 300px;
 }
-
 
 .main-panel {
 	margin-top: 300px;
 	margin-bottom: 120px;
+}
+
+.panel{
+	text-shadow: none; /* Prevent inheritence from `body` */
+}
+
+.panel-body{
+	color: #222;
+	text-align: left;
+}
+
+.panel-body a:link{
+    color:#000;
+}
+
+.panel-body a:visited{
+    color:#000;
+}
+
+.panel-body a:hover{
+    color:#000;
+}
+
+.panel-body a:active{
+    color:#000;
 }
 
 #toggle-footer {
@@ -50,10 +61,12 @@ body {
   height: 32px;
   font-size: 2.0em;
 	text-shadow: none; /* Prevent inheritence from `body` */
+	display:none;
 }
 
 #hideable-footer {
 	display: none;
+	text-shadow: none; /* Prevent inheritence from `body` */
 }
 
 
@@ -65,10 +78,6 @@ body {
 
 	#hideable-footer {
 	  display:inline;
-	}
-
-	#toggle-footer{
-		display: none;
 	}
 
 }

@@ -19,21 +19,26 @@
 <div class="site-wrapper">
 <div class="site-wrapper-inner">
 <aside class="navbar-left">
+
+<header>
 <h2>Recent Posts</h2>
+</header>
 
-<div class="list-group">
+<div class="panel panel-default">
+<nav class="panel-body">
+<ul>
 
-<a href="/jekyll/update/2015/07/16/welcome-to-jekyll.html" class="list-group-item">
-  <h4 class="list-group-item-heading">Welcome to Jekyll!</h4>
-  <p class="list-group-item-text">Jul 16, 2015</p>
-</a>
+<li><a href="/jekyll/update/2015/07/16/welcome-to-jekyll.html">
+  Welcome to Jekyll!
+</a></li>
 
-<a href="/jekyll/update/2015/06/12/Test%20article.html" class="list-group-item">
-  <h4 class="list-group-item-heading">Welcome to Jekyll2!</h4>
-  <p class="list-group-item-text">Jun 12, 2015</p>
-</a>
+<li><a href="/jekyll/update/2015/06/12/Test%20article.html">
+  Welcome to Jekyll2!
+</a></li>
 
 
+</ul>
+</nav>
 </div>
 </aside>
 
@@ -56,6 +61,7 @@
 <body>
 <div class="inner cover">
 <div class="main-panel">
+<heading><h1 class="cover-heading">Welcome!</h1></heading>
 
 </div>
 </div>
@@ -139,6 +145,19 @@
 <script>
 if ( $(window).width() > 769){
 $(document).ready(function(){
+  if($(window).height() == $(document).height()){
+    $("#toggle-footer").fadeIn("slow");
+  }
+  $(window).scroll(function(){
+   if($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
+     $("#toggle-footer").fadeIn("slow");
+   }
+   else {
+     $("#toggle-footer").fadeOut("slow");
+     $("#hideable-footer").fadeOut("slow");
+   }
+ });
+
   $("#toggle-footer").click(function(){
       $("#hideable-footer").animate({
         height: "toggle",

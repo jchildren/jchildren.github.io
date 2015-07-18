@@ -6,6 +6,19 @@
 <script>
 if ( $(window).width() > 769){
 $(document).ready(function(){
+  if($(window).height() == $(document).height()){
+    $("#toggle-footer").fadeIn("slow");
+  }
+  $(window).scroll(function(){
+   if($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
+     $("#toggle-footer").fadeIn("slow");
+   }
+   else {
+     $("#toggle-footer").fadeOut("slow");
+     $("#hideable-footer").fadeOut("slow");
+   }
+ });
+
   $("#toggle-footer").click(function(){
       $("#hideable-footer").animate({
         height: "toggle",

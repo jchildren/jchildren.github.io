@@ -1,7 +1,14 @@
 <aside class="navbar-left">
-<h2>Recent Posts</h2>
 
-<div class="list-group">
+<header>
+<h2>Recent Posts</h2>
+</header>
+
+<div class="panel panel-default">
+<nav class="panel-body">
+<ul>
 {% assign posts_list = site.posts %}{% include posts_list.html %}
+</ul>
+</nav>
 </div>
 </aside>
