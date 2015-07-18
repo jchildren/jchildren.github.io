@@ -1,15 +1,12 @@
 ---
 layout: default
 ---
-<div class="post">
-
-  <header class="post-header">
-    <h1 class="cover-heading">{{ page.title }}</h1>
-    <p class="lead">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+<div class="panel panel-default">
+  <header class="panel-heading">
+    <h3 class="cover-heading">{{ page.title }}</h3>
   </header>
-
-  <article class="post-content">
+  <article class="panel-body">
+    <p class="lead">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     {{ content }}
   </article>
-
 </div>

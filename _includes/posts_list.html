@@ -1,0 +1,11 @@
+{% for node in posts_list %}{% if group == null or group == node.group %}{% if page.url == node.url %}
+<a href="{{ node.url | prepend: site.baseurl }}" class="list-group-item active">
+  <h4 class="list-group-item-heading">{{ node.title }}</h4>
+  <p class="list-group-item-text">{{ node.date | date: "%b %-d, %Y" }}</p>
+</a>
+{% else %}
+<a href="{{ node.url | prepend: site.baseurl }}" class="list-group-item">
+  <h4 class="list-group-item-heading">{{ node.title }}</h4>
+  <p class="list-group-item-text">{{ node.date | date: "%b %-d, %Y" }}</p>
+</a>
+{% endif %}{% endif %}{% endfor %}{% assign pages_list = nil %}{% assign group = nil %}

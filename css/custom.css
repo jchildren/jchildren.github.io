@@ -13,11 +13,35 @@
 }
 
 body {
-  background: url(/image/science-world.jpg) no-repeat center center fixed; 
+
+	background: url(/image/science-world.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.list-group-item {
+
+		background: transparent;
+		color: #F2F2F2;
+
+		color: #333;
+		text-shadow: none; /* Prevent inheritence from `body` */
+		border: 1px solid #fff;
+
+		/* CSS Transition */
+		-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+		-moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+		-ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+		-o-transition: background .2s ease-in-out, border .2s ease-in-out;
+		transition: background .2s ease-in-out, border .2s ease-in-out;
+
+}
+
+
+.panel {
+	margin-bottom: 120px;
 }
 
 .full-img {
@@ -38,4 +62,5 @@ body {
   width: 32px;
   height: 32px;
   font-size: 2.0em;
+	text-shadow: none; /* Prevent inheritence from `body` */
 }

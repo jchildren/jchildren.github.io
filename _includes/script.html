@@ -1,0 +1,27 @@
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $("#toggle-footer").click(function(){
+      $("#hideable-footer").animate({
+        height: "toggle",
+        opacity: "toggle",
+        duration: "slow"
+      });
+      $("#toggle-footer").toggleClass("glyphicon glyphicon-menu-down", 1000).toggleClass("glyphicon glyphicon-menu-up", 1000);
+
+  });
+
+  window.addEventListener("scroll", function() {
+      if (window.scrollY > 500) {
+          $('.navbar').fadeOut();
+      }
+      else {
+          $('.navbar').fadeIn();
+      }
+  },false);
+});
+</script>
