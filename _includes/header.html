@@ -1,12 +1,10 @@
-<header class="site-header">
-    <div class="masthead clearfix">
-      <div class="inner">
-        <h3 class="masthead-brand"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h3>
-        <nav>
-        <ul class="nav masthead-nav">
-          {% assign pages_list = site.pages %}{% assign group = 'navigation' %}{% include pages_list.html %}
-        </ul>
-        </nav>
-      </div>
-    </div>
+<header class="masthead clearfix">
+<div class="inner">
+<h3 class="masthead-brand"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h3>
+<nav>
+<ul class="nav masthead-nav">
+  {% assign pages_list = site.pages %}{% assign group = 'navigation' %}{% include pages_list.html %}
+</ul>
+</nav>
+</div>
 </header>

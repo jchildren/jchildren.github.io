@@ -1,6 +1,6 @@
 # Site settings
 title: jchildren.github.io
-email: j.a.children@gmail.com
+email: john.a.children@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   24 year old physics MSc graduate, working as a web developer in Vancouver.
 baseurl: "" # the subpath of your site, e.g. /blog/

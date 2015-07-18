@@ -11,16 +11,17 @@ $(document).ready(function(){
         opacity: "toggle",
         duration: "slow"
       });
-      $("#toggle-footer").toggleClass("glyphicon glyphicon-menu-down", 1000).toggleClass("glyphicon glyphicon-menu-up", 1000);
+      $("#toggle-footer").toggleClass("glyphicon glyphicon-menu-down", 1000)
+      .toggleClass("glyphicon glyphicon-menu-up", 1000);
 
   });
 
   window.addEventListener("scroll", function() {
-      if (window.scrollY > 500) {
-          $('.navbar').fadeOut();
+      if (window.scrollY > 250) {
+          $('.masthead').fadeOut();
       }
       else {
-          $('.navbar').fadeIn();
+          $('.masthead').fadeIn();
       }
   },false);
 });
