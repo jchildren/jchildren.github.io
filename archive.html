@@ -1,0 +1,10 @@
+---
+layout: page
+title: Archive
+permalink: /archive/
+group: "navigation"
+---
+{% for post in site.posts %}
+<p><a href="{{ post.url | prepend: site.baseurl }}"><span><b>{{ post.title }}</b></span>
+<span><i>{{ post.date | date: "%b %-d, %Y" }}</i></span></a></p>
+{% endfor %}
