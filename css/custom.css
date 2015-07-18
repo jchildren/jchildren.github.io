@@ -39,12 +39,17 @@ body {
 
 }
 
+
 .main-panel {
 	margin-top: 300px;
+	margin-bottom: 120px;
 }
 
-.panel {
-	margin-bottom: 120px;
+@media (max-width: 978px) {
+	.main-panel {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
 }
 
 .full-img {
