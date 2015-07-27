@@ -1,15 +1,24 @@
-.btn{
+img {
+	display: block;
+	margin-left: auto;
+  margin-right: auto;
+}
 
-	background: transparent;
-	color: #F2F2F2;
+body {
 
-	/* CSS Transition */
-	-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
-	-moz-transition: background .2s ease-in-out, border .2s ease-in-out;
-	-ms-transition: background .2s ease-in-out, border .2s ease-in-out;
-	-o-transition: background .2s ease-in-out, border .2s ease-in-out;
-	transition: background .2s ease-in-out, border .2s ease-in-out;
+	background: url(/image/science-world.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
+
+
+.navbar-left{
+	margin-left: 50px;
+	margin-top: 300px;
+	position: static;
 }
 
 .list-group {
@@ -60,26 +69,6 @@
 	color: transparent;
 }
 
-img {
-	display: block;
-	margin-left: auto;
-  margin-right: auto;
-}
-
-body {
-
-	background: url(/image/science-world.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.navbar-left{
-	margin-left: 50px;
-	margin-top: 300px;
-	position: static;
-}
 
 .main-panel {
 	margin-top: 300px;
