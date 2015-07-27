@@ -41,17 +41,17 @@ $(document).ready(function(){
   $(function(){ // document ready
 
 
-  var stickyAside = $('aside').offset().top; // returns number
+  var stickyAside = $('.navbar-left').offset().top; // returns number
 
   $(window).scroll(function(){ // scroll event
 
     var windowTop = $(window).scrollTop(); // returns number
 
     if (stickyAside < windowTop) {
-      $('aside').css({ position: 'fixed', top: 0 });
+      $('.navbar-left').css({ position: 'fixed', top: 0 });
     }
     else {
-      $('aside').css('position','static');
+      $('.navbar-left').css('position','static');
     }
 
   });
