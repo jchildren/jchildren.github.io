@@ -39,7 +39,7 @@
 	background: transparent;
 	color: #F2F2F2;
 
-	border:10px;
+	border:30px;
 
 	-webkit-border-radius: 0;
 	-moz-border-radius:    0;
@@ -57,11 +57,13 @@
 
 .list-group-item:hover, .list-group-item:focus, .list-group-item:active, .list-group-item.active {
 	background: #F2F2F2;
+	color: transparent;
 }
 
 .list-group-item:active, .list-group-item.active {
 
 	background: #F2F2F2;
+	color: transparent;
 }
 
 img {
