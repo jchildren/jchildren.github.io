@@ -38,6 +38,25 @@ $(document).ready(function(){
           $('.masthead').fadeIn();
       }
   },false);
+  $(function(){ // document ready
+
+
+  var stickyAside = $('aside').offset().top; // returns number
+
+  $(window).scroll(function(){ // scroll event
+
+    var windowTop = $(window).scrollTop(); // returns number
+
+    if (stickyAside < windowTop) {
+      $('aside').css({ position: 'fixed', top: 0 });
+    }
+    else {
+      $('aside').css('position','static');
+    }
+
+  });
+
+});
 });
 }
 </script>
