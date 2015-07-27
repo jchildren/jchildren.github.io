@@ -22,7 +22,10 @@
 	text-shadow: none; /* Prevent inheritence from `body` */
 	background: transparent;
 	color: #F2F2F2;
-	padding: 10px;
+
+	-webkit-border-radius: 0;
+	-moz-border-radius:    0;
+	border-radius:         0;
 
 
 	/* CSS Transition */
@@ -34,8 +37,12 @@
 
 }
 
-.list-group-item .active {
-	color: #F2F2F2;
+.list-group-item:hover, .list-group-item:focus, .list-group-item:active, .list-group-item.active {
+    background: #33a6cc;
+}
+
+.list-group-item:active, .list-group-item.active {
+		background: #007299;
 }
 
 img {
