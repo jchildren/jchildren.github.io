@@ -4,7 +4,10 @@ title: Archive
 permalink: /archive/
 group: "navigation"
 ---
+<center>
 {% for post in site.posts %}
-<p><a href="{{ post.url | prepend: site.baseurl }}"><span><b>{{ post.title }}</b></span>
-<span><i>{{ post.date | date: "%b %-d, %Y" }}</i></span></a></p>
+<p><a href="{{ post.url | prepend: site.baseurl }}"><span><i>{{ post.date | date: "%b %-d, %Y" }}</i></span>
+<span> - </span>
+<span><b>{{ post.title }}</b></span></a></p>
 {% endfor %}
+</center>
