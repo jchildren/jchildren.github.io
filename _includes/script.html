@@ -41,22 +41,6 @@ $(document).ready(function(){
   $(function(){ // document ready
 
 
-  var stickyAside = $('.navbar-left').offset().top; // returns number
-
-  $(window).scroll(function(){ // scroll event
-
-    var windowTop = $(window).scrollTop(); // returns number
-
-    if (stickyAside < windowTop) {
-      $('.navbar-left').css({ position: 'fixed', top: 0 });
-    }
-    else {
-      $('.navbar-left').css('position','static');
-      $(".navbar-left").animate({down: windowTop});
-    }
-
-  });
-
 });
 });
 }
