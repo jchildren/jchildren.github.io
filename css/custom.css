@@ -55,13 +55,7 @@
 
 }
 
-.list-group-item:hover, .list-group-item:focus, .list-group-item:active, .list-group-item.active {
-	background: #F2F2F2;
-	color: transparent;
-}
-
 .list-group-item:active, .list-group-item.active {
-
 	background: #F2F2F2;
 	color: transparent;
 }
