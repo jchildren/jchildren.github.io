@@ -14,6 +14,7 @@
 
 .list-group-item{
 
+	text-shadow: none; /* Prevent inheritence from `body` */
 	background: transparent;
 	color: #F2F2F2;
 
