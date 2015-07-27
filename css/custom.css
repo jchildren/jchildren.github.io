@@ -12,11 +12,17 @@
 
 }
 
+a .list-group-item {
+	color: #F2F2F2;
+}
+
 .list-group-item{
 
 	text-shadow: none; /* Prevent inheritence from `body` */
 	background: transparent;
 	color: #F2F2F2;
+	padding: 10px;
+
 
 	/* CSS Transition */
 	-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
