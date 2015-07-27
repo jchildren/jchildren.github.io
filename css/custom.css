@@ -12,6 +12,25 @@
 
 }
 
+.list-group-item{
+
+	background: transparent;
+	color: #F2F2F2;
+
+	/* CSS Transition */
+	-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-o-transition: background .2s ease-in-out, border .2s ease-in-out;
+	transition: background .2s ease-in-out, border .2s ease-in-out;
+
+}
+
+.list-group-item .active {
+	color: #F2F2F2;
+}
+
+
 body {
 
 	background: url(/image/science-world.jpg) no-repeat center center fixed;
