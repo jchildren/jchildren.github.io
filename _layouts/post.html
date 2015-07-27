@@ -5,7 +5,7 @@ layout: default
 
 <div class="panel panel-default">
 <article class="panel-body">
-<p class="lead"><center>{{ page.date | date: "%b %-d, %Y" }}</center>{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+<center><p class="lead">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p></center>
 {{ content }}</article>
 
 </div>
