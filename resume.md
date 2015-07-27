@@ -9,17 +9,13 @@ group: "navigation"
 
 ### MSc Quantum Technologies
 
-#### University of Leeds UK
-
-##### *2013 - 2014*
+#### University of Leeds UK *2013 - 2014*
 
 ##### Dissertation: Numerical simulation of one way quantum computation with error correction
 
 ### MPhys Physics with Philosophy
 
-#### University of York UK
-
-##### *2009 - 2013*
+#### University of York UK *2009 - 2013*
 
 ##### Dissertation: Numerical simulation of qubit decoherence in silicon-28 due to hyperfine spin interaction
 
@@ -27,15 +23,11 @@ group: "navigation"
 
 ### Web Developer
 
-#### Quantiki
-
-##### *2015 - Current*
+#### Quantiki *2015 - Current*
 
 ### Summer Research Student
 
-#### University of York
-
-##### *Summer 2012*
+#### University of York *Summer 2012*
 
 ## Technical Skills
 
