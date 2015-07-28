@@ -21,9 +21,11 @@ body {
 	position: fixed;
 }
 
-.list-group{
+
+.list-group-item {
 	background: transparent;
 	color: #F2F2F2;
+	text-shadow: none;
 
 	/* CSS Transition */
 	-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
@@ -35,6 +37,18 @@ body {
 	-webkit-border-radius: 0;
 	-moz-border-radius:    0;
 	border-radius:         0;
+}
+
+ul.list-group a, ul.list-group a:visited {
+    color: transparent;
+}
+
+ul.list-group a:hover, ul.list-group a:active {
+    color: transparent;
+}
+
+ul.list-group a {
+    color: #F2F2F2;
 }
 
 
@@ -54,18 +68,22 @@ body {
 
 .panel-body a:link{
     color:#000;
+		text-decoration: none;
 }
 
 .panel-body a:visited{
     color:#000;
+		text-decoration: none;
 }
 
 .panel-body a:hover{
     color:#000;
+		text-decoration: underline;
 }
 
 .panel-body a:active{
     color:#000;
+		text-decoration: underline;
 }
 
 #toggle-footer {
