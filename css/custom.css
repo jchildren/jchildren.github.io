@@ -39,12 +39,16 @@ body {
 	border-radius:         0;
 }
 
+.list-group-item:active, .list-group-item.active{
+	background: #F2F2F2;
+}
+
 ul.list-group a, ul.list-group a:visited {
-    color: transparent;
+    color: #222;
 }
 
 ul.list-group a:hover, ul.list-group a:active {
-    color: transparent;
+    color: #222;
 }
 
 ul.list-group a {
