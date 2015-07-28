@@ -21,39 +21,9 @@ body {
 	position: fixed;
 }
 
-.list-group {
-	color: #F2F2F2;
-}
-
-.list-group-item a:link{
-    color:#F2F2F2;
-}
-
-.list-group-item a:visited{
-    color:#F2F2F2;
-}
-
-.list-group-item a:hover{
-    color:transparent;
-}
-
-.list-group-item a:active{
-    color:transparent;
-}
-
-
-.list-group-item{
-
-	text-shadow: none; /* Prevent inheritence from `body` */
+.list-group{
 	background: transparent;
 	color: #F2F2F2;
-
-	border:30px;
-
-	-webkit-border-radius: 0;
-	-moz-border-radius:    0;
-	border-radius:         0;
-
 
 	/* CSS Transition */
 	-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
@@ -62,11 +32,9 @@ body {
 	-o-transition: background .2s ease-in-out, border .2s ease-in-out;
 	transition: background .2s ease-in-out, border .2s ease-in-out;
 
-}
-
-.list-group-item:active, .list-group-item.active {
-	background: #F2F2F2;
-	color: transparent;
+	-webkit-border-radius: 0;
+	-moz-border-radius:    0;
+	border-radius:         0;
 }
 
 
