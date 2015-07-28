@@ -6,7 +6,7 @@ layout: default
 <div class="panel panel-default">
 <article class="panel-body">
 <center><p class="lead">{{ page.date | date: "%b %-d, %Y" }}</p>
-  <p><i>{% if page.tags %} • {{ page.tags }}{% endif %}</i></p></center>
+  <p><i>{% if page.tags %}{{ page.tags | array_to_sentence_string }}{% endif %}</i></p></center>
 {{ content }}</article>
 
 </div>
