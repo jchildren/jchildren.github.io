@@ -17,7 +17,7 @@ body {
 
 .navbar-left {
 	margin-left: 50px;
-	margin-top: 300px;
+	margin-top: 0px;
 	position: fixed;
 }
 
@@ -62,6 +62,10 @@ ul.list-group a, ul.list-group a:visited {
 }
 
 ul.list-group a:hover, ul.list-group a:active {
+    color: #222;
+}
+
+ul.list-group a:active {
     color: #222;
 }
 
