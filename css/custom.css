@@ -59,18 +59,22 @@ body {
 
 ul.list-group a, ul.list-group a:visited {
     color: #222;
+		text-shadow: none;
 }
 
 ul.list-group a:hover, ul.list-group a:active {
     color: #222;
+		text-shadow: none;
 }
 
 ul.list-group a:active {
     color: #222;
+		text-shadow: none;
 }
 
 ul.list-group a {
     color: #fff;
+		text-shadow: none;
 }
 
 
