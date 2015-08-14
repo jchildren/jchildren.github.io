@@ -68,13 +68,13 @@ get my numerical gravity to work correctly before trying to throw an entire
 universe into the processor. Thankfully Wikipedia had my back with this [article][solar],
 which provided a nice piece of psuedo-code for my simulation:
 
-```
+~~~
 a.old = gravitationfunction(x.old)
 x.expect = x.old + v.old * dt
 a.expect = gravitationfunction(x.expect)
 v.new = v.old + (a.old + a.expect) * 0.5 * dt
 x.new = x.old + (v.new + v.old) * 0.5 * dt
-```
+~~~
 
 Armed with my new knowledge of pointers from petri I managed to implement an
 update function for my "celestial" objects which would allow me to call things
@@ -84,7 +84,7 @@ There are a few things that need to be fixed with the program before it actually
 displays output, but I was particularly pleased with the resulting function so
 I'll just leave it here so people can spot the obvious errors that I can't see.
 
-``` cpp
+~~~~ cpp
 // Calculates the acceleration for the next timestep
 int Celestial::update(double time_step, unsigned body_index, unsigned total_bodies, Celestial** system)
 {
@@ -129,9 +129,9 @@ int Celestial::update(double time_step, unsigned body_index, unsigned total_bodi
 
 	return 0;
 }
-```
+~~~~
 
-```cpp
+~~~~cpp
 Vec3 gravitational_acceleration(Vec3 p1, Vec3 p2, double mass) {
 	Vec3 top = (p1 - p2) * mass;
 
@@ -141,7 +141,7 @@ Vec3 gravitational_acceleration(Vec3 p1, Vec3 p2, double mass) {
 
 	return output;
 }
-```
+~~~~
 
 [petri-repo]:   https://github.com/jchildren/petri
 [hr-hyper]:     http://hyperphysics.phy-astr.gsu.edu/hbase/astro/herrus.html#c2
