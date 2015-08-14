@@ -70,13 +70,9 @@ which provided a nice piece of psuedo-code for my simulation:
 
 ```
 a.old = gravitationfunction(x.old)
-
 x.expect = x.old + v.old * dt
-
 a.expect = gravitationfunction(x.expect)
-
 v.new = v.old + (a.old + a.expect) * 0.5 * dt
-
 x.new = x.old + (v.new + v.old) * 0.5 * dt
 ```
 
@@ -88,13 +84,10 @@ There are a few things that need to be fixed with the program before it actually
 displays output, but I was particularly pleased with the resulting function so
 I'll just leave it here so people can spot the obvious errors that I can't see.
 
-```c++
-
+``` c++
 // Calculates the acceleration for the next timestep
-
 int Celestial::update(double time_step, unsigned body_index, unsigned total_bodies, Celestial** system)
-{
-
+\{
 	// Sets all parts of the Vec3 structure to 0.0 as we will be doing a summation
 	acceleration_ = 0.0;
 
@@ -135,7 +128,7 @@ int Celestial::update(double time_step, unsigned body_index, unsigned total_bodi
 	position_ = position_ + (velocity_ + old_velocity) * 0.5 * time_step;
 
 	return 0;
-}
+\}
 
 ```
 
