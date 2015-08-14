@@ -18,7 +18,7 @@ enough, there was a nice [relationship][hr-hyper] between mass and luminosity fo
 sequence stars so I would only need a relationship between mass and time for
 80% of stars.
 
-\\[ L = L_{sun} (\frac{M}{M_{sun}})^{\approx 3.5} \\]
+\\[ L = L_{sun} (\frac{M}{M_{sun}})^{\sim 3.5} \\]
 
 Additionally, it seemed like there might even be a numerical way
 to determine in which direction a star proceeds along the HR diagram based on
@@ -68,11 +68,15 @@ get my numerical gravity to work correctly before trying to throw an entire
 universe into the processor. Thankfully Wikipedia had my back with this [article][solar],
 which provided a nice piece of psuedo-code for my simulation:
 
-```
+```pseudo-code
 a.old = gravitationfunction(x.old)
+
 x.expect = x.old + v.old * dt
+
 a.expect = gravitationfunction(x.expect)
+
 v.new = v.old + (a.old + a.expect) * 0.5 * dt
+
 x.new = x.old + (v.new + v.old) * 0.5 * dt
 ```
 
@@ -84,18 +88,10 @@ There are a few things that need to be fixed with the program before it actually
 displays output, but I was particularly pleased with the resulting function so
 I'll just leave it here so people can spot the obvious errors that I can't see.
 
-```
+```cpp
 // Calculates the acceleration for the next timestep
 int Celestial::update(double time_step, unsigned body_index, unsigned total_bodies, Celestial** system)
 {
-
-	/*
-	a.old = gravitationfunction(x.old)
-	x.expect = x.old + v.old * dt
-	a.expect = gravitationfunction(x.expect)
-	v.new = v.old + (a.old + a.expect) * 0.5 * dt
-	x.new = x.old + (v.new + v.old) * 0.5 * dt
-  */
 
 	// Sets all parts of the Vec3 structure to 0.0 as we will be doing a summation
 	acceleration_ = 0.0;
