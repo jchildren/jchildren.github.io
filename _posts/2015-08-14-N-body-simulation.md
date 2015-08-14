@@ -37,7 +37,7 @@ motion with just three bodies, so decided to consult Wikipedia liberally.
 
 Of particular interest was the work of [Sverre Aarseth][sverre], who has spent his entire
 life working on optimal computation of the n-body problem, with much of the code publicly
-available on his [webpages][nobdy]. For example, nbody6 contains 50,000 lines of
+available on his [webpages][nbody]. For example, nbody6 contains 50,000 lines of
 FORTRAN 77 code with features like reformation from collisions, stellar evolution
 and every optimization you can dream of. As someone who learned to code "properly" in
 Fortran 90 (at this point they dropped the capitialisation), it was nice to revisit
