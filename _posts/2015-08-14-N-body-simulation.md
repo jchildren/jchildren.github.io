@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "N-Body Simulation"
-date:   2015-07-31 13:00:00
+date:   2015-08-14 13:00:00
 categories: programming
 tags: programming c++ physics numerical simulation
 ---
