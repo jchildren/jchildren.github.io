@@ -2,7 +2,7 @@
 layout: post
 title:  "Petri: now with dynamic allocation"
 date:   2015-07-31 16:15:00
-categories: programing
+categories: programming
 tags: programming c++ biology automata evolution
 ---
 
@@ -13,9 +13,9 @@ program and therefore my own c++ abilities, so spent the better part of the last
 few days working on improving the program.
 
 One of the issues with the first build of the program was that memory was
-statically defined by the maximum population with the programing constructing
+statically defined by the maximum population with the programming constructing
 a number of objects equal to that amount, which was defined as a constant in
-the program. Instead, the cell class had a boolean parameter that told program
+the program. Instead, the cell class had a Boolean parameter that told program
 whether to consider the cell in processing and display. This meant that cell
 variables had to be reassigned after each compute step in order to prevent
 iteration over the whole population, which could potentially become very
