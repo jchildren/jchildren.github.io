@@ -76,6 +76,10 @@ v.new = v.old + (a.old + a.expect) * 0.5 * dt
 x.new = x.old + (v.new + v.old) * 0.5 * dt
 ~~~
 
+As well as a nice numerical equation:
+
+\\[ (a\_j)\_x = \sum\_{i \neq j}^n G \frac{M\_i}{( (x\_i - x\_j)^2 + (y\_i - y\_j)^2 + (z\_i - z\_j)^2 )^{3/2}} (x\_i - x\_j) \\]
+
 Armed with my new knowledge of pointers from petri I managed to implement an
 update function for my "celestial" objects which would allow me to call things
 one at a time. I also created a 3d vector data structure which I found to be
