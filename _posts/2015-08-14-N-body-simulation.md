@@ -18,7 +18,7 @@ enough, there was a nice [relationship][hr-hyper] between mass and luminosity fo
 sequence stars so I would only need a relationship between mass and time for
 80% of stars.
 
-\\[ L = L_{sun} (\frac{M}{M_{sun}})^{\sim 3.5} \\]
+\\[ L = L\_{sun} (\frac{M}{M\_{sun}})^{\sim 3.5} \\]
 
 Additionally, it seemed like there might even be a numerical way
 to determine in which direction a star proceeds along the HR diagram based on
@@ -68,7 +68,7 @@ get my numerical gravity to work correctly before trying to throw an entire
 universe into the processor. Thankfully Wikipedia had my back with this [article][solar],
 which provided a nice piece of psuedo-code for my simulation:
 
-```pseudo-code
+```
 a.old = gravitationfunction(x.old)
 
 x.expect = x.old + v.old * dt
@@ -88,8 +88,10 @@ There are a few things that need to be fixed with the program before it actually
 displays output, but I was particularly pleased with the resulting function so
 I'll just leave it here so people can spot the obvious errors that I can't see.
 
-```cpp
+```c++
+
 // Calculates the acceleration for the next timestep
+
 int Celestial::update(double time_step, unsigned body_index, unsigned total_bodies, Celestial** system)
 {
 
@@ -102,7 +104,7 @@ int Celestial::update(double time_step, unsigned body_index, unsigned total_bodi
 		}
 		else {
 
-			acceleration_ = gravitational_acceleration(
+			acceleration_ = acceleration_ + gravitational_acceleration(
 				position(), system[i]->position(), system[i]->mass());
 
 		}
@@ -112,7 +114,7 @@ int Celestial::update(double time_step, unsigned body_index, unsigned total_bodi
 
 	expected_position = position() + velocity_ * time_step;
 
-	Vec3 expected_acceleration;
+	Vec3 expected_acceleration = 0.0;
 
 	for (unsigned i = 0; i < total_bodies; i++) {
 		if (i == body_index) {
@@ -120,7 +122,7 @@ int Celestial::update(double time_step, unsigned body_index, unsigned total_bodi
 		}
 		else {
 
-			expected_acceleration = gravitational_acceleration(
+			expected_acceleration = expected_acceleration + gravitational_acceleration(
 				expected_position, system[i]->position(), system[i]->mass());
 
 		}
