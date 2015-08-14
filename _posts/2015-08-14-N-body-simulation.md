@@ -84,10 +84,10 @@ There are a few things that need to be fixed with the program before it actually
 displays output, but I was particularly pleased with the resulting function so
 I'll just leave it here so people can spot the obvious errors that I can't see.
 
-``` c++
+``` cpp
 // Calculates the acceleration for the next timestep
 int Celestial::update(double time_step, unsigned body_index, unsigned total_bodies, Celestial** system)
-\{
+{
 	// Sets all parts of the Vec3 structure to 0.0 as we will be doing a summation
 	acceleration_ = 0.0;
 
@@ -128,8 +128,19 @@ int Celestial::update(double time_step, unsigned body_index, unsigned total_bodi
 	position_ = position_ + (velocity_ + old_velocity) * 0.5 * time_step;
 
 	return 0;
-\}
+}
+```
 
+```cpp
+Vec3 gravitational_acceleration(Vec3 p1, Vec3 p2, double mass) {
+	Vec3 top = (p1 - p2) * mass;
+
+	double bottom = pow((diff_sqr(p1.x, p2.x) + diff_sqr(p1.y, p2.y) + diff_sqr(p1.z, p2.z)), 1.5);
+
+	Vec3 output = top / bottom;
+
+	return output;
+}
 ```
 
 [petri-repo]:   https://github.com/jchildren/petri
