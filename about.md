@@ -24,4 +24,4 @@ Philosophy of Science, Solid State Physics and High Performance Computing.
 
 
 
-[resume]:  {{"resume" | prepend: site.baseurl}}
+[resume]:  {{"/resume" | prepend: site.baseurl}}
