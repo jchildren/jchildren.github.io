@@ -11,3 +11,6 @@ linkedin_username: johnchildren
 
 # Build settings
 markdown: kramdown
+
+collections:
+- projects

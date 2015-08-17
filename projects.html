@@ -1,0 +1,13 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+group: "navigation"
+---
+<center>
+{% for post in site.projects %}
+<p><a href="{{ post.url | prepend: site.baseurl }}"><span><i>{{ post.date | date: "%b %-d, %Y" }}</i></span>
+<span> - </span>
+<span><b>{{ post.title }}</b></span></a></p>
+{% endfor %}
+</center>
