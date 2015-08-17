@@ -113,6 +113,7 @@ ul.list-group a {
 }
 
 .thumbnail{
+	height: 450px;
 }
 
 .thumbnail img{
