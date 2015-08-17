@@ -24,4 +24,4 @@ Philosophy of Science, Solid State Physics and High Performance Computing.
 
 
 
-[resume]:  {{"/resume" | prepend: site.baseurl}}
+[resume]:  https://jchildren.github.io/resume
