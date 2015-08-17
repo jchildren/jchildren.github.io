@@ -112,6 +112,15 @@ ul.list-group a {
 		text-decoration: underline;
 }
 
+.thumbnail{
+    width: 242px;
+    height: 200px;
+    overflow: auto;
+}
+
+.thumbnail img{
+}
+
 #toggle-footer {
   width: 32px;
   height: 32px;
