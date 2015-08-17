@@ -5,9 +5,17 @@ permalink: /projects/
 group: "navigation"
 ---
 <center>
-{% for post in site.posts %}
-<p><a href="{{ post.url | prepend: site.baseurl }}"><span><i>{{ post.date | date: "%b %-d, %Y" }}</i></span>
-<span> - </span>
-<span><b>{{ post.title }}</b></span></a></p>
-{% endfor %}
+  <div class="jumbotro">
+    <h1>Petri</h1>
+    <img src="image/petri.PNG">
+    <p>A petridish simulator</p>
+
+    <p><a class="btn btn-primary btn-lg" href="{{/petri | prepend: site.baseurl }}" role="button">Learn more</a></p>
+  </div>
+  <div class="jumbotron">
+    <h1>Star Gen</h1>
+    <img src="images/science-world.jpg">
+    <p>...</p>
+    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+  </div>
 </center>
