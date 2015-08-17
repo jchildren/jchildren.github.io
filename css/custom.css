@@ -113,12 +113,12 @@ ul.list-group a {
 }
 
 .thumbnail{
-    width: 242px;
-    height: 200px;
-    overflow: auto;
 }
 
 .thumbnail img{
+	width: 242px;
+	height: 200px;
+	overflow: auto;
 }
 
 #toggle-footer {
