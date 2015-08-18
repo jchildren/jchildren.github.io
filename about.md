@@ -16,8 +16,8 @@ Since January I've been doing some part time web development for an academic
 website which has been an interesting experience, but has allowed me to work on
 a bunch of different projects and greatly improve my programming skills. This
 has mainly focused on C++ but I've also been working on learning Ruby and very
-recently Haskell. I'm very eager to take these skills into a workplace enviroment
-so if you have an interesting project available take a look at my [resume][resume].
+recently Haskell. I'm very eager to take these skills into a workplace environment
+so if you have an interesting project available take a look at my [résumé][resume].
 
 On the academic side, I'm most interested in Quantum Computation,
 Philosophy of Science, Solid State Physics and High Performance Computing.
