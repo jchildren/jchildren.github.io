@@ -14,7 +14,7 @@ group: "navigation"
   </p>
 </center>
   <div class="content">
-    {{ post.content | truncatewords:150 }}
+    {{ post.content | truncatewords:150 }} <a href="{{ post.url }}">Read More</a>
   </div>
 {% endfor %}
 
