@@ -9,4 +9,19 @@ layout: default
   <p><i>{% if page.tags %}{{ page.tags | array_to_sentence_string }}{% endif %}</i></p></center>
 {{ content }}</article>
 
+
+<div class="">
+  {% if page.previous %}
+  <a href ="{{ page.previous_page_path }}" class=" glyphicon glyphicon-menu-left">Previous</a>
+  {% else %}
+  <span class =" glyphicon glyphicon-menu-left">Previous</span>
+  {% endif %}
+  {% if page.next %}
+  <a href="{{ page.next_page_path }}" class="glyphicon glyphicon-menu-right">Next</a>
+  {% else %}
+  <span class="glyphicon glyphicon-menu-right">Next</span>
+  {% endif %}
+</div>
+
+
 </div>
