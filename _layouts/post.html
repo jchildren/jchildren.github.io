@@ -12,14 +12,14 @@ layout: default
 
 <div class="row">
   {% if page.previous %}
-  <a href ="{{ page.previous_page_path }}" class=" glyphicon glyphicon-menu-left">Previous</a>
+  <a href ="{{ page.previous_page_path }}"><span class ="glyphicon glyphicon-menu-left"></span><span>Previous</span></a>
   {% else %}
-  <span class =" glyphicon glyphicon-menu-left">Previous</span>
+  <span class =" glyphicon glyphicon-menu-left"></span><span>Previous</span>
   {% endif %}
   {% if page.next %}
-  <a href="{{ page.next_page_path }}" class="glyphicon glyphicon-menu-right">Next</a>
+  <a href="{{ page.next_page_path }}"><span class ="glyphicon glyphicon-menu-left"></span><span>Next</span></a>
   {% else %}
-  <span class="glyphicon glyphicon-menu-right">Next</span>
+  <span class="glyphicon glyphicon-menu-right"></span></span>Next</span>
   {% endif %}
 </div>
 
