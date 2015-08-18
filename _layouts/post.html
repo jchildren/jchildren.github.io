@@ -7,8 +7,7 @@ layout: default
 <article class="panel-body">
 <center><p class="lead">{{ page.date | date: "%b %-d, %Y" }}</p>
   <p><i>{% if page.tags %}{{ page.tags | array_to_sentence_string }}{% endif %}</i></p></center>
-{{ content }}</article>
-
+{{ content }}
 
 <div class="row">
   {% if page.previous %}
@@ -17,11 +16,12 @@ layout: default
   <span class =" glyphicon glyphicon-menu-left"></span><span>Previous</span>
   {% endif %}
   {% if page.next %}
-  <a href="{{ page.next_page_path }}"><span class ="glyphicon glyphicon-menu-left"></span><span>Next</span></a>
+  <a href="{{ page.next_page_path }}"><span>Next</span><span class ="glyphicon glyphicon-menu-left"></span></a>
   {% else %}
-  <span class="glyphicon glyphicon-menu-right"></span></span>Next</span>
+  <span>Next</span><span class="glyphicon glyphicon-menu-right"></span>
   {% endif %}
 </div>
 
+</article>
 
 </div>
