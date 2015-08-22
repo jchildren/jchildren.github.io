@@ -1,0 +1,25 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+group: "navigation"
+---
+
+
+<div class="row">
+  {{ for post in paginator.posts }}
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="{{ post.thumbnail | prepend: site.baseurl }}" alt="{{ post.alttext }}">
+      <div class="caption">
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.content | truncatewords:150 }}</p>
+        <p><a href="{{ post.url }}" class="btn btn-primary" role="button">Details</a></p>
+        {{ if post.projectlink }}
+        <p><a href="{{ post.projectlink }}" class="btn btn-primary" role="button">Link</a></p>
+        {{ end if }}
+      </div>
+    </div>
+  </div>
+  {{ end for }}
+</div>
