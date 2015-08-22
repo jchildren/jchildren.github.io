@@ -4,91 +4,89 @@ title: Résumé
 permalink: /resume/
 group: "navigation"
 ---
+Highlights
+========
 
-## Education
+* Extensive experience working in a Linux environment with numerous scripting languages
+* Proven talent for acquiring new technical skills quickly and effectively
+* Driven and self-motivated individual who can perform well with minimal
+supervision
 
-### MSc Quantum Technologies
+Projects
+========
 
-#### University of Leeds UK *2013 - 2014*
+Web Developer *2015-Present*
+----------------------------
 
-##### Dissertation: Numerical simulation of one way quantum computation with error correction
-
-* Created a numerical simulation of measurement based quantum computation with error correction in Fortran 95 with LAPACK, achieved a grade of 70% (4.0).
-
-* Studied Quantum Information Theory, Quantum Optics, Next Generation Silicon Technologies
-
-### MPhys Physics with Philosophy
-
-#### University of York UK *2009 - 2013*
-
-##### Dissertation: Numerical simulation of qubit decoherence in silicon-28 due to hyperfine spin interaction
-
-* Produced *ab initio* simulation of spin interactions in silicon-28 quantum dots for degree project, earning a grade of 71% (4.0)
-
-* Studied Electromagnetic Theory, Quantum Computing and High Performance Computing
-
-
-## Technical Experience
-
-### Web Developer
-
-#### Quantiki *2015 - Current*
+<span>Quantiki.org</span>
 
 * Implementing a full stack solution to replace a complex legacy system without data loss or service interruption
 * Identifying existing software packages that meet the project requirements and developing new ones where none are available such as a wrapper module for Pandoc
-* Selecting the best technologies to use to ensure a reliable service with a long life span and explaining my decisions to the project leaders
-* Writing documentation to explain my process for implementation and providing a simple method for deployment so it can be replicated in future if necessary
+* Migrating legacy database content with consideration for hashed passwords and legacy encoding
 
-### Summer Research Student
+Project Student *2013-2014*
+---------------------------
 
-#### University of York *Summer 2012*
+<span>University of Leeds</span><span>Dr Jaewoo Joo</span>
+
+* Created a numerical simulation of measurement based quantum computation with a topological error correction code in Fortran 95 based on the work of my supervisor
+* Used LAPACK to improve performance and ensure scalability as well
+as provide advanced linear algebra routines such as matrix
+decomposition
+* Achieved a grade of 70% (4.0)
+
+Project Student *2012-2013*
+---------------------------
+
+<span>University of York</span><span>Prof. Irene D'Amico</span>
+
+* Created numerical and analytical simulations of de-coherence of Qubits in silicon-28 quantum dots due to hyperfine and magnetic interactions
+* Generated graphs from results showing the state of the system over time for a range of initial conditions
+* Achieved a grade of 71% (4.0)
+
+Research Student *Summer 2012*
+------------------------------
+
+<span>University of York</span><span>Dr Matt Probert</span>
 
 * Built a database of example results from simulations of solid state materials that were run on University computing cluster for a range of bonding types
-* Created perl scripts using the materials studio api to run batches of simulations on the cluster to optimise input parameters of simulations
-* Designed website to display data from calculations as benchmarks with comparison graphs
+* Created Perl scripts using the materials studio API to run batches
+of simulations on the cluster to optimise input parameters of
+simulations
+* Designed and coded PHP website to display data from calculations as benchmarks with comparison graphs
 
+Education
+=========
 
-## Technical Skills
-*Ordered by relative competency*
+Master of Science *2013-2014*
+-----------------------------
 
-### High Level Programming
-1. FORTRAN 90/95
-2. C++
-3. Haskell
+<span>University of Leeds</span>
 
-### Libraries
-1. LAPACK/BLAS
-2. OpenMP
-3. OpenMPI
-4. SFML
-5. SDL
+* Studied Quantum Information Theory, Advanced Quantum Computing and Next Generation Silicon Technologies
+* Achieved a Merit with 3.5 GPA
 
-### Scripting
-1. Bash Scripting
-2. Perl
-3. Python
-4. Ruby
-5. Lua
+Master of Physics *2009-2013*
+-----------------------------
 
-### Web Development
-1. PHP/PHP5
-2. MySQL
-3. HTML/HTML5
-4. CSS/SCSS
+<span>University of York</span>
 
-### Tools
-1. git
-2. gfortran/g++/ifort compilers
-3. cmake
-4. visual studio 2013/15
-5. gdb
-6. valgrind
+* Studied Advanced Computational Laboratory, Intro. to Quantum Computing and High Performance Computing
+* Achieved Upper Second Class Honours with 3.6 GPA
 
-### Mathematics
-1. MAPLE
-2. GNU-Octave
+Technical Skills
+================
 
-### Documentation
-1. LaTeX
+| Compiled           | Libraries | Web           |
+|:-------------------|:---------:|--------------:|
+| Fortran            | OpenMP    | HTML/HTML5    |
+| C++                | OpenMPI   | CSS/Bootstrap |
+| Haskell (Beginner) |LAPACK     | MySQL         |
+|                    | SFML      | Drupal        |
 
-## Interests & Activities
+| Scripting | Tools         | Misc.   |
+|:----------|:-------------:|--------:|
+| PHP5      | Visual Studio | MAPLE   |
+| Perl      | gdb/Valgrind  | Vagrant |
+| Bash      | git           | GnuPlot |
+| Python    | CMake         | LaTeX   |
