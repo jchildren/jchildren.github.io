@@ -77,19 +77,17 @@ Master of Physics *2009-2013*
 Technical Skills
 ================
 
-<span>
+
 | Compiled           | Libraries | Web           |
 |:-------------------|:---------:|--------------:|
 | Fortran            | OpenMP    | HTML/HTML5    |
 | C++                | OpenMPI   | CSS/Bootstrap |
 | Haskell (Beginner) |LAPACK     | MySQL         |
 |                    | SFML      | Drupal        |
-</span>
-<span>
+
 | Scripting | Tools         | Misc.   |
 |:----------|:-------------:|--------:|
 | PHP5      | Visual Studio | MAPLE   |
 | Perl      | gdb/Valgrind  | Vagrant |
 | Bash      | git           | GnuPlot |
 | Python    | CMake         | LaTeX   |
-</span>
