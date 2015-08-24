@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<heading><h1 class="cover-heading">{{ page.title }}</h1></heading>
+
+<center>
+<span><a href="{{ project.url }}" class="btn btn-primary" role="button">Details</a></span>
+{{ if project.projectlink }}
+<span><a href="{{ project.projectlink }}" class="btn btn-primary" role="button">Link</a></span>
+</center>
+
+<div class="panel panel-default">
+<article class="panel-body">{{ content }}</article>
+</div>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title:  "Petri"
 thumbnail: "/images/Petri.PNG"
 alttext: "A sample timestep"

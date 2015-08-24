@@ -9,17 +9,15 @@ group: "navigation"
 <div class="row">
   {{ for project in site.projects }}
   <div class="col-sm-6 col-md-4">
+    <a href="{{ project.url }}">
     <div class="thumbnail">
       <img src="{{ project.thumbnail | prepend: site.baseurl }}" alt="{{ project.alttext }}">
       <div class="caption">
         <h3>{{ project.title }}</h3>
         <p>{{ project.content | truncatewords:25 }}</p>
-        <p><a href="{{ project.url }}" class="btn btn-primary" role="button">Details</a></p>
-        {{ if project.projectlink }}
-        <p><a href="{{ project.projectlink }}" class="btn btn-primary" role="button">Link</a></p>
-        {{ endif }}
       </div>
     </div>
+    </a>
   </div>
   {{ endfor }}
 </div>
