@@ -7,7 +7,7 @@ group: "navigation"
 
 
 <div class="row">
-  {{ for project in site.projects }}
+  {% for project in site.projects %}
   <div class="col-sm-6 col-md-4">
     <a href="{{ project.url }}">
     <div class="thumbnail">
@@ -19,5 +19,5 @@ group: "navigation"
     </div>
     </a>
   </div>
-  {{ endfor }}
+  {% endfor %}
 </div>
