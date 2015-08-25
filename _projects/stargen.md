@@ -1,9 +1,9 @@
 ---
 layout: project
 title:  "Stargen"
-thumbnail: "/images/Petri.PNG"
+thumbnail: "images/Petri.PNG"
 alttext: "A sample timestep"
-projectlink: "https://github.com/jchildren/petri"
+projectlink: ""
 ---
 
-A cellular automata
+A solar system generator
