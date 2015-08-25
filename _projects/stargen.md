@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Stargen"
-thumbnail: "images/Petri.PNG"
+thumbnail: "Petri.PNG"
 alttext: "A sample timestep"
 projectlink: ""
 ---
