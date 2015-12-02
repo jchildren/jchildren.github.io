@@ -6,4 +6,4 @@ alttext: "A screenshot"
 projectlink: ""
 ---
 
-Full Indie Games Jam 2015
+A card based action game built in a weekend
