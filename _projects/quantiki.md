@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "SS23"
+title:  "Quantiki"
 thumbnail: "quantiki.PNG"
 alttext: "A screenshot"
 projectlink: "http://www.quantiki.org"
