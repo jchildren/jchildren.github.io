@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Full Indie Games Jam"
-thumbnail: ""
+thumbnail: "game-jam.png"
 alttext: "A screenshot"
 projectlink: ""
 ---
