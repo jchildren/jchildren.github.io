@@ -6,4 +6,4 @@ alttext: "A screenshot"
 projectlink: ""
 ---
 
-A card based action game built in a weekend
+A Unity card based action game built in a weekend
