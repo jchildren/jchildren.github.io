@@ -15,14 +15,16 @@ Highlights
 Projects
 ========
 
-Web Developer *2015-Present*
+Web Developer *2015*
 ----------------------------
 
 <span>Quantiki.org</span>
 
+
 * Implementing a full stack solution to replace a complex legacy system without data loss or service interruption
 * Identifying existing software packages that meet the project requirements and developing new ones where none are available such as a wrapper module for Pandoc
-* Migrating legacy database content with consideration for hashed passwords and legacy encoding
+* Selecting the best technologies to use to ensure a reliable service with a long life span and explaining my decisions to the project leaders
+* Writing documentation to explain my process for implementation and providing a simple method for deployment so it can be replicated in future if necessary
 
 Project Student *2013-2014*
 ---------------------------

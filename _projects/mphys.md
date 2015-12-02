@@ -6,4 +6,4 @@ alttext: "A graph output"
 projectlink: "https://github.com/jchildren/hyperfine_spin_qubits"
 ---
 
-My MPhys degree project
+Simulation of spin qubit decoherence due to hyperfine interaction

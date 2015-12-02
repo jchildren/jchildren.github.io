@@ -6,4 +6,4 @@ alttext: "A code sample"
 projectlink: "https://github.com/jchildren/1wqc_sim"
 ---
 
-My MSc degree project
+Simulation of 1 way quantum computation
