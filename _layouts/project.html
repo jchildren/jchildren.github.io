@@ -6,9 +6,9 @@ layout: default
 
 <div class="panel panel-default">
   {% if page.projectlink %}
-  <center>
-  <span><a href="{{ page.projectlink }}" class="btn btn-primary" role="button">Link</a></span>
-  </center>
+  <div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <a href="{{ page.projectlink }}" class="btn btn-primary" role="button">Project Link</a>
+  </div>
   {% endif %}
   <article class="panel-body">{{ content }}</article>
 </div>
