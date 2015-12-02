@@ -7,10 +7,10 @@ group: "navigation"
 Highlights
 ========
 
-* Extensive experience working in a Linux environment with numerous scripting languages
-* Proven talent for acquiring new technical skills quickly and effectively
-* Driven and self-motivated individual who can perform well with minimal
-supervision
+* Demonstrated ability to create numerical physics simulations
+* Knowledge of and experience with high performance computing
+* Experience with a wide range of technologies with a demonstrated talent for learning new techniques quickly and independently 
+* Driven and self-motivated individual who can perform well with minimal supervision
 
 Projects
 ========
@@ -77,17 +77,40 @@ Master of Physics *2009-2013*
 Technical Skills
 ================
 
+High level programming
+-----------------------------
 
-| Compiled           | Libraries | Web           |
-|:-------------------|:---------:|--------------:|
-| Fortran            | OpenMP    | HTML/HTML5    |
-| C++                | OpenMPI   | CSS/Bootstrap |
-| Haskell (Beginner) |LAPACK     | MySQL         |
-|                    | SFML      | Drupal        |
+* Familiar with object oriented and array programming styles
+* Experience with Fortran 90/95 through education and projects
+* Some experience of C++ through personal projects
 
-| Scripting | Tools         | Misc.   |
-|:----------|:-------------:|--------:|
-| PHP5      | Visual Studio | MAPLE   |
-| Perl      | gdb/Valgrind  | Vagrant |
-| Bash      | git           | GnuPlot |
-| Python    | CMake         | LaTeX   |
+Scripting
+-----------------------------
+
+* Proficient with Perl, Python, Bash and PHP
+
+Mathematics Packages
+-----------------------------
+
+* Experience with MAPLE for physics simulation
+* Basic proficiency with Gnu-Octave
+
+General Computation
+-----------------------------
+
+* Knowledgeable about and experienced with parallel processing and high performance computing implementations and libraries such as OpenMP, Open MPI and LAPACK
+* Experience working with the LAMP stack to deliver web applications
+* Familiar with relational databases such as MySQL
+
+Development tools
+-----------------------------
+
+* Familiar with popular version control software
+* Visual Studio 2013/15
+* Experience with popular compilers/debuggers particularly gcc based
+
+Technical Writing
+-----------------------------
+
+* Skilled at LaTeX document production for papers and presentations
+* Philosophical background provides ability to explain complex abstract concepts clearly
