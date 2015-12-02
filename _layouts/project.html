@@ -5,10 +5,13 @@ layout: default
 <heading><h1 class="cover-heading">{{ page.title }}</h1></heading>
 
 <div class="panel panel-default">
-  {% if page.projectlink %}
-  <div class="btn-group btn-group-justified" role="group" aria-label="...">
-  <a href="{{ page.projectlink }}" class="btn btn-primary" role="button">Project Link</a>
-  </div>
-  {% endif %}
   <article class="panel-body">{{ content }}</article>
+  <div class="btn-group btn-group-justified" role="group" aria-label="...">
+  {% if page.projectlink %}
+  <a href="{{ page.projectlink }}" class="btn btn-primary" role="button">Project Link</a>
+  {% endif %}
+  {% if page.projectpage %}
+  <a href="{{ page.projectpage }}" class="btn btn-primary" role="button">Project Page</a>
+  {% endif %}
+  </div>
 </div>
