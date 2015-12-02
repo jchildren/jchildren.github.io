@@ -18,7 +18,7 @@ A Unity card based action game built in a weekend with [Julien Collée][julien] 
 <img src="https://jchildren.github.io/image/full-map.png" />
 
 
-````cs
+```cs
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
@@ -284,6 +284,6 @@ public class Generator : MonoBehaviour {
 
 
 }
-````
+```
 
 [julien]:	https://ca.linkedin.com/in/juliencollee
