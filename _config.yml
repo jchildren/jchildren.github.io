@@ -2,9 +2,9 @@
 title: jchildren.github.io
 email: john.a.children@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  24 year old physics MSc graduate, seeking new challenges in Vancouver.
+  25 year old physics MSc graduate, seeking new challenges.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.john-children.com" # the base hostname & protocol for your site
+url: "jchildren.github.io" # the base hostname & protocol for your site
 twitter_username: john_children
 github_username:  jchildren
 linkedin_username: johnchildren
