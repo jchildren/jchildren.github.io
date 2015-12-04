@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Quantiki"
-thumbnail: "quantiki.PNG"
+thumbnail: "quantiki.png"
 alttext: "A screenshot"
 projectlink: "http://www.quantiki.org"
 ---

@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "MPhys Project"
-thumbnail: "mphys_project.PNG"
+thumbnail: "mphys_project.png"
 alttext: "A graph output"
 projectlink: "https://github.com/jchildren/hyperfine_spin_qubits"
 ---

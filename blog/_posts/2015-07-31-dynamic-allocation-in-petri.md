@@ -33,7 +33,7 @@ than others. Unfortunately for cells that do this, replicating too fast leaves
 them vulnerable and low on energy so it seems that the cells that reproduce less
 often will tend to survive better in the current conditions.
 
-![alt text](https://jchildren.github.io/image/blog/petri2.PNG "The current build")
+![alt text](https://jchildren.github.io/image/blog/petri2.png "The current build")
 
 This combined with food being randomly added to the grid each time step now
 leads to a stable population at the maximum and a lot of dead cells that

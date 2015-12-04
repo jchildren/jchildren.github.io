@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Petri"
-thumbnail: "petri.PNG"
+thumbnail: "petri.png"
 alttext: "A sample timestep"
 projectlink: "https://github.com/jchildren/petri"
 ---

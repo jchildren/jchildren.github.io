@@ -11,11 +11,11 @@ A Unity card based action game built in a weekend with [Julien Collée][julien] 
 
 <img src="https://jchildren.github.io/image/projects/main_title_02.png" />
 
-<img src="https://jchildren.github.io/image/projects/tilted-sprites.PNG" />
+<img src="https://jchildren.github.io/image/projects/tilted-sprites.png" />
 
-<img src="https://jchildren.github.io/image/projects/generated-map.PNG" />
+<img src="https://jchildren.github.io/image/projects/generated-map.png" />
 
-<img src="https://jchildren.github.io/image/projects/full-map.PNG" />
+<img src="https://jchildren.github.io/image/projects/full-map.png" />
 
 
 ~~~cs

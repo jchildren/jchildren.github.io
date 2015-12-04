@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Simple wiki"
-thumbnail: "simple-wiki.PNG"
+thumbnail: "simple-wiki.png"
 alttext: "A screenshot"
 projectlink: "https://github.com/jchildren/django-basic-wiki"
 ---
