@@ -13,39 +13,20 @@ A Unity card based action game built in a weekend with [Julien Collée][julien] 
 
 <div class="row">
   <div class="col-xs-12 col-md-4">
-  <a data-toggle="lightbox" href="#tiltedSprites" class="thumbnail">
+  <a href="https://jchildren.github.io/image/projects/tilted-sprites.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Overview of a single player level" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/tilted-sprites.png" />
   </a>
   </div>
   <div class="col-xs-12 col-md-4">
-  <a data-toggle="lightbox" href="#generatedMap" class="thumbnail">
+  <a href="https://jchildren.github.io/image/projects/generated-map.png" data-toggle="lightbox" data-gallery="multiimages" data-title="The viewport" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/generated-map.png" />
   </a>
   </div>
   <div class="col-xs-12 col-md-4">
-  <a data-toggle="lightbox" href="#fullMap" class="thumbnail">
+  <a href="https://jchildren.github.io/image/projects/full-map.png" data-toggle="lightbox" data-gallery="multiimages" data-title="A full singleplayer map" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/full-map.png" />
   </a>
   </div>
-</div>
-
-<div id="tiltedSprites" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
-	<div class='lightbox-content'>
-		<img src="https://jchildren.github.io/image/projects/tilted-sprites.png">
-		<div class="lightbox-caption"><p>Overview of a single player level</p></div>
-	</div>
-</div>
-<div id="generatedMap" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
-	<div class='lightbox-content'>
-		<img src="https://jchildren.github.io/image/projects/generated-map.png" />
-		<div class="lightbox-caption"><p>The viewport</p></div>
-	</div>
-</div>
-<div id="fullMap" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
-	<div class='lightbox-content'>
-		<img src="https://jchildren.github.io/image/projects/full-map.png" />
-		<div class="lightbox-caption"><p>A full singleplayer map</p></div>
-	</div>
 </div>
 
 ~~~cs
@@ -140,17 +121,17 @@ private int PlaceRectangle (int x1, int x2, int y1, int y2)
 
 <div class="row">
   <div class="col-xs-12 col-md-4">
-  <a href="#" class="thumbnail">
+  <a href="https://jchildren.github.io/image/projects/nt/no-corridors.png" data-toggle="lightbox" data-gallery="multiimages" data-title="The viewport" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/nt/no-corridors.png" />
   </a>
   </div>
   <div class="col-xs-12 col-md-4">
-  <a href="#" class="thumbnail">
+  <a href="https://jchildren.github.io/image/projects/nt/no-corridors-low-sd.png" data-toggle="lightbox" data-gallery="multiimages" data-title="The viewport" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/nt/no-corridors-low-sd.png" />
   </a>
   </div>
   <div class="col-xs-12 col-md-4">
-  <a href="#" class="thumbnail">
+  <a href="https://jchildren.github.io/image/projects/nt/no-corridors-many.png" data-toggle="lightbox" data-gallery="multiimages" data-title="The viewport" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/nt/no-corridors-many.png" />
   </a>
   </div>
@@ -214,17 +195,17 @@ if (failCount >= config.errorLimit)
 
 <div class="row">
   <div class="col-xs-12 col-md-4">
-  <a href="#" class="thumbnail">
+  <a href="https://jchildren.github.io/image/projects/nt/basic-map-1.png" data-toggle="lightbox" data-gallery="multiimages" data-title="The viewport" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/nt/basic-map-1.png" />
   </a>
   </div>
   <div class="col-xs-12 col-md-4">
-  <a href="#" class="thumbnail">
+  <a href="https://jchildren.github.io/image/projects/nt/basic-map-2.png" data-toggle="lightbox" data-gallery="multiimages" data-title="The viewport" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/nt/basic-map-2.png" />
   </a>
   </div>
   <div class="col-xs-12 col-md-4">
-  <a href="#" class="thumbnail">
+  <a href="https://jchildren.github.io/image/projects/nt/high-room-number.png" data-toggle="lightbox" data-gallery="multiimages" data-title="The viewport" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/nt/high-room-number.png" />
   </a>
   </div>
@@ -284,17 +265,17 @@ foreach (int x in width) {
 
 <div class="row">
   <div class="col-xs-12 col-md-4">
-  <a href="#" class="thumbnail">
+  <a href="https://jchildren.github.io/image/projects/nt/noise-1.png" data-toggle="lightbox" data-gallery="multiimages" data-title="The viewport" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/nt/noise-1.png" />
   </a>
   </div>
   <div class="col-xs-12 col-md-4">
-  <a href="#" class="thumbnail">
+  <a href="https://jchildren.github.io/image/projects/nt/noise-2.png" data-toggle="lightbox" data-gallery="multiimages" data-title="The viewport" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/nt/noise-2.png" />
   </a>
   </div>
   <div class="col-xs-12 col-md-4">
-  <a href="#" class="thumbnail">
+  <a href="https://jchildren.github.io/image/projects/nt/obstacles.png" data-toggle="lightbox" data-gallery="multiimages" data-title="The viewport" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/nt/obstacles.png" />
   </a>
   </div>
