@@ -49,6 +49,11 @@ body {
 		text-decoration: underline;
 }
 
+h4.modal-title {
+	text-shadow: none;
+	color:#222;
+}
+
 #toggle-footer {
   width: 32px;
   height: 32px;
