@@ -13,7 +13,7 @@ A Unity card based action game built in a weekend with [Julien Collée][julien] 
 
 <div class="row">
   <div class="col-xs-12 col-md-4">
-  <a href="#" class="thumbnail">
+  <a href="#tiltedSprites" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/tilted-sprites.png" />
   </a>
   </div>
@@ -27,6 +27,13 @@ A Unity card based action game built in a weekend with [Julien Collée][julien] 
   <img src="https://jchildren.github.io/image/projects/full-map.png" />
   </a>
   </div>
+</div>
+
+<div id="tiltedSprites" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+	<div class='lightbox-content'>
+		<img src="https://jchildren.github.io/image/projects/tilted-sprites.png">
+		<div class="lightbox-caption"><p>Overview of a single player level</p></div>
+	</div>
 </div>
 
 ~~~cs
