@@ -13,17 +13,17 @@ A Unity card based action game built in a weekend with [Julien Collée][julien] 
 
 <div class="row">
   <div class="col-xs-12 col-md-4">
-  <a href="#tiltedSprites" class="thumbnail">
+  <a data-toggle="lightbox" href="#tiltedSprites" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/tilted-sprites.png" />
   </a>
   </div>
   <div class="col-xs-12 col-md-4">
-  <a href="#" class="thumbnail">
+  <a data-toggle="lightbox" href="#generatedMap" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/generated-map.png" />
   </a>
   </div>
   <div class="col-xs-12 col-md-4">
-  <a href="#" class="thumbnail">
+  <a data-toggle="lightbox" href="#fullMap" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/full-map.png" />
   </a>
   </div>
@@ -33,6 +33,18 @@ A Unity card based action game built in a weekend with [Julien Collée][julien] 
 	<div class='lightbox-content'>
 		<img src="https://jchildren.github.io/image/projects/tilted-sprites.png">
 		<div class="lightbox-caption"><p>Overview of a single player level</p></div>
+	</div>
+</div>
+<div id="generatedMap" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+	<div class='lightbox-content'>
+		<img src="https://jchildren.github.io/image/projects/generated-map.png" />
+		<div class="lightbox-caption"><p>The viewport</p></div>
+	</div>
+</div>
+<div id="fullMap" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+	<div class='lightbox-content'>
+		<img src="https://jchildren.github.io/image/projects/full-map.png" />
+		<div class="lightbox-caption"><p>A full singleplayer map</p></div>
 	</div>
 </div>
 
