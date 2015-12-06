@@ -49,16 +49,6 @@ body {
 		text-decoration: underline;
 }
 
-.thumbnail{
-	height: 350px;
-}
-
-.thumbnail img{
-	width: 242px;
-	height: 200px;
-	overflow: auto;
-}
-
 #toggle-footer {
   width: 32px;
   height: 32px;

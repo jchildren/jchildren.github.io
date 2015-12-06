@@ -12,17 +12,17 @@ A Unity card based action game built in a weekend with [Julien Collée][julien] 
 
 
 <div class="row">
-  <div class="col-xs-6 col-md-3">
+  <div class="col-xs-12 col-md-4">
   <a href="#" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/tilted-sprites.png" />
   </a>
   </div>
-  <div class="col-xs-6 col-md-3">
+  <div class="col-xs-12 col-md-4">
   <a href="#" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/generated-map.png" />
   </a>
   </div>
-  <div class="col-xs-6 col-md-3">
+  <div class="col-xs-12 col-md-4">
   <a href="#" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/full-map.png" />
   </a>
@@ -120,17 +120,17 @@ private int PlaceRectangle (int x1, int x2, int y1, int y2)
 ~~~
 
 <div class="row">
-  <div class="col-xs-6 col-md-3">
+  <div class="col-xs-12 col-md-4">
   <a href="#" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/nt/no-corridors.png" />
   </a>
   </div>
-  <div class="col-xs-6 col-md-3">
+  <div class="col-xs-12 col-md-4">
   <a href="#" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/nt/no-corridors-low-sd.png" />
   </a>
   </div>
-  <div class="col-xs-6 col-md-3">
+  <div class="col-xs-12 col-md-4">
   <a href="#" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/nt/no-corridors-many.png" />
   </a>
@@ -194,17 +194,17 @@ if (failCount >= config.errorLimit)
 ~~~
 
 <div class="row">
-  <div class="col-xs-6 col-md-3">
+  <div class="col-xs-12 col-md-4">
   <a href="#" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/nt/basic-map-1.png" />
   </a>
   </div>
-  <div class="col-xs-6 col-md-3">
+  <div class="col-xs-12 col-md-4">
   <a href="#" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/nt/basic-map-2.png" />
   </a>
   </div>
-  <div class="col-xs-6 col-md-3">
+  <div class="col-xs-12 col-md-4">
   <a href="#" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/nt/high-room-number.png" />
   </a>
@@ -264,17 +264,17 @@ foreach (int x in width) {
 ~~~
 
 <div class="row">
-  <div class="col-xs-6 col-md-3">
+  <div class="col-xs-12 col-md-4">
   <a href="#" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/nt/noise-1.png" />
   </a>
   </div>
-  <div class="col-xs-6 col-md-3">
+  <div class="col-xs-12 col-md-4">
   <a href="#" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/nt/noise-2.png" />
   </a>
   </div>
-  <div class="col-xs-6 col-md-3">
+  <div class="col-xs-12 col-md-4">
   <a href="#" class="thumbnail">
   <img src="https://jchildren.github.io/image/projects/nt/obstacles.png" />
   </a>
