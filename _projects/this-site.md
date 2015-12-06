@@ -1,8 +1,8 @@
 ---
 layout: project
 title:  "These webpages"
-thumbnail: "science-world.png"
-alttext: "A sample timestep"
+thumbnail: "science-world.jpg"
+alttext: "The image"
 projectlink: "https://github.com/jchildren/jchildren.github.io"
 projectdownload: "https://github.com/jchildren/jchildren.github.io/archive/master.zip"
 ---
