@@ -4,11 +4,12 @@ title: Projects
 permalink: /projects/
 group: "navigation"
 ---
-
-
+{% for project in site.projects %}
+  {% assign loopindex = forloop.index | modulo: 3 %}
+  {% if loopindex == 1 %}
 <div class="row">
-  {% for project in site.projects %}
-  <div class="col-sm-6 col-md-4">
+  {% endif %}
+  <div class="col-sm-12 col-md-4">
     <a href="{{ project.url }}">
     <div class="thumbnail">
       <img src="{{ project.thumbnail | prepend: "https://jchildren.github.io/image/projects/" }}" alt="{{ project.alttext }}">
@@ -20,4 +21,7 @@ group: "navigation"
     </a>
   </div>
   {% endfor %}
+  {% if loopindex == 1 %}
 </div>
+  {% endif %}
+
