@@ -57,8 +57,8 @@ for (int r = 0; r <= config.maxRooms; r++) {
 	float u2 = (float)rand.NextDouble();
 	float randStdNormal = Mathf.Sqrt(-2.0f * Mathf.Log(u1)) *
 		Mathf.Sin(2.0f * Mathf.PI * u2); //random normal(0,1)
-	float randNormal =
-		(float)(config.mapWidth /2) + config.standardDeviation * randStdNormal; //random normal(mean,stdDev^2)
+	float randNormal = (float)(config.mapWidth /2) 
+		+ config.standardDeviation * randStdNormal; //random normal(mean,stdDev^2)
 	
 	int x = (int)randNormal;
 
@@ -66,8 +66,8 @@ for (int r = 0; r <= config.maxRooms; r++) {
 	u2 = (float)rand.NextDouble();
 	randStdNormal = Mathf.Sqrt(-2.0f * Mathf.Log(u1)) *
 		Mathf.Sin(2.0f * Mathf.PI * u2); //random normal(0,1)
-	randNormal =
-		(float)(config.mapHeight /2) + config.standardDeviation * randStdNormal; //random normal(mean,stdDev^2)
+	randNormal = (float)(config.mapHeight /2) 
+		+ config.standardDeviation * randStdNormal; //random normal(mean,stdDev^2)
 
 	int y = (int)randNormal;
 
