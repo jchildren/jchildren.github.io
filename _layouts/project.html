@@ -17,8 +17,8 @@ layout: default
   {% if page.projectdownload %}
   <a href="{{ page.projectdownload }}" class="btn btn-primary" role="button">Download</a>
   {% endif %}
-  {% if page.projectdownload %}
-  <a href="{{ page.projectdoc | prepend: site.baseurl }}" class="btn btn-primary" role="button">Download</a>
+  {% if page.projectdoc %}
+  <a href="{{ page.projectdoc | prepend: site.baseurl }}" class="btn btn-primary" role="button">Documentation</a>
   {% endif %}
   </div>
   <br>
