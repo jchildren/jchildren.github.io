@@ -6,9 +6,8 @@ alttext: "A graph output"
 projectlink: "https://github.com/jchildren/hyperfine_spin_qubits"
 projectdownload: "https://github.com/jchildren/hyperfine_spin_qubits/archive/master.zip"
 projectdoc: "/files/mphys-dissertation.pdf"
+description: "Simulation of spin qubit decoherence due to hyperfine interaction"
 ---
-
-Simulation of spin qubit decoherence due to hyperfine interaction
 
 Abstract
 -----------------------------

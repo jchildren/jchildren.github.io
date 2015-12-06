@@ -6,9 +6,8 @@ alttext: "A code sample"
 projectlink: "https://github.com/jchildren/1wqc_sim"
 projectdownload: "https://github.com/jchildren/1wqc_sim/archive/master.zip"
 projectdoc: "/files/msc-dissertation.pdf"
+description: "Simulation of 1 way quantum computation"
 ---
-
-Simulation of 1 way quantum computation
 
 Abstract
 -----------------------------

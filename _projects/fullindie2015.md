@@ -3,6 +3,7 @@ layout: project
 title:  "Full Indie Games Jam"
 thumbnail: "game-jam.png"
 alttext: "A screenshot"
+description: "A Unity card based action game built in a weekend"
 ---
 
 A Unity card based action game built in a weekend with [Julien Collée][julien] and Thomas Paterson

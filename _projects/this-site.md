@@ -5,6 +5,7 @@ thumbnail: "science-world.jpg"
 alttext: "The image"
 projectlink: "https://github.com/jchildren/jchildren.github.io"
 projectdownload: "https://github.com/jchildren/jchildren.github.io/archive/master.zip"
+description: "Building this site has also been a project of sorts"
 ---
 
 Building this site has also been a project of sorts, though the commit count is a little inflated.
