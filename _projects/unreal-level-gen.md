@@ -6,6 +6,10 @@ alttext: "A screenshot"
 description: "An UE4 level generator"
 ---
 
+I started this project after running though some of the UE4 programming tutorials and becoming particularly enchanted
+with the [procedural level generation video][tutorial]. That was done through UE4 blueprints however and with tiles
+and I was interested in having both walls and multiple floors so I started working on this.
+
 <center>
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Testing out the basic data structures for my map generator in UE4. Next step: walls on multiple sides. <a href="https://t.co/6Ikc55Z0fv">pic.twitter.com/6Ikc55Z0fv</a></p>&mdash; John Children (@john_children) <a href="https://twitter.com/john_children/status/665423787622576128">November 14, 2015</a></blockquote>
@@ -21,3 +25,5 @@ There are some problems with memory leaks and the UPROPERTY of the components an
 attached to the root components.   but here's a gist:
 
 <script src="https://gist.github.com/jchildren/6ff0c21affea9e07d63d.js"></script>
+
+[tutorial]: https://wiki.unrealengine.com/Videos/Player?series=PLZlv_N0_O1ga0aV9jVqJgog0VWz1cLL5f&video=mI7eYXMJ5eI
