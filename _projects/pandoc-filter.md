@@ -7,7 +7,7 @@ projectlink: "https://github.com/jchildren/pandoc_filter"
 projectdownload: "https://github.com/jchildren/pandoc_filter/archive/master.zip"
 ---
 
-A filter for Drupal that uses Pandoc to convert markup
+A filter for Drupal that uses Pandoc to convert markup.
 
 This module allows you to use the pandoc-php module as a filter for drupal 7 text formats. The module provides a small number of settings and will produce either html or html5 output to be used in the display of drupal fields.
 
