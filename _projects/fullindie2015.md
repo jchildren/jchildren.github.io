@@ -9,23 +9,23 @@ description: "A Unity card based action game built in a weekend"
 A Unity card based action game built in a weekend with [Julien Collée][julien] and Thomas Paterson
 
 
-<img src="https://jchildren.github.io/image/projects/main_title_02.png" height="200" width="100%"/>
+<img src="https://jchildren.github.io/image/projects/main_title_02.png" height="200px" width="100%"/>
 
 
 <div class="row">
   <div class="col-xs-12 col-md-4">
   <a href="https://jchildren.github.io/image/projects/tilted-sprites.png" data-toggle="lightbox" data-gallery="multiimages" data-footer="Overview of a single player level" class="thumbnail">
-  <img src="https://jchildren.github.io/image/projects/tilted-sprites.png" height="200" width="100%"/>
+  <img src="https://jchildren.github.io/image/projects/tilted-sprites.png" height="200px" width="100%"/>
   </a>
   </div>
   <div class="col-xs-12 col-md-4">
   <a href="https://jchildren.github.io/image/projects/generated-map.png" data-toggle="lightbox" data-gallery="multiimages" data-footer="The viewport" class="thumbnail">
-  <img src="https://jchildren.github.io/image/projects/generated-map.png" height="200" width="100%"/>
+  <img src="https://jchildren.github.io/image/projects/generated-map.png" height="200px" width="100%"/>
   </a>
   </div>
   <div class="col-xs-12 col-md-4">
   <a href="https://jchildren.github.io/image/projects/full-map.png" data-toggle="lightbox" data-gallery="multiimages" data-footer="A full singleplayer map" class="thumbnail">
-  <img src="https://jchildren.github.io/image/projects/full-map.png" height="200" width="100%"/>
+  <img src="https://jchildren.github.io/image/projects/full-map.png" height="200px" width="100%"/>
   </a>
   </div>
 </div>
@@ -123,17 +123,17 @@ private int PlaceRectangle (int x1, int x2, int y1, int y2)
 <div class="row">
   <div class="col-xs-12 col-md-4">
   <a href="https://jchildren.github.io/image/projects/nt/no-corridors.png" data-toggle="lightbox" data-gallery="multiimages" data-footer="Just the rooms" class="thumbnail">
-  <img src="https://jchildren.github.io/image/projects/nt/no-corridors.png" height="200" width="100%"/>
+  <img src="https://jchildren.github.io/image/projects/nt/no-corridors.png" height="200px" width="100%"/>
   </a>
   </div>
   <div class="col-xs-12 col-md-4">
   <a href="https://jchildren.github.io/image/projects/nt/no-corridors-low-sd.png" data-toggle="lightbox" data-gallery="multiimages" data-footer="A lower standard deviation" class="thumbnail">
-  <img src="https://jchildren.github.io/image/projects/nt/no-corridors-low-sd.png" height="200" width="100%"/>
+  <img src="https://jchildren.github.io/image/projects/nt/no-corridors-low-sd.png" height="200px" width="100%"/>
   </a>
   </div>
   <div class="col-xs-12 col-md-4">
   <a href="https://jchildren.github.io/image/projects/nt/no-corridors-many.png" data-toggle="lightbox" data-gallery="multiimages" data-footer="Lots of rooms" class="thumbnail">
-  <img src="https://jchildren.github.io/image/projects/nt/no-corridors-many.png" height="200" width="100%"/>
+  <img src="https://jchildren.github.io/image/projects/nt/no-corridors-many.png" height="200px" width="100%"/>
   </a>
   </div>
 </div>
@@ -197,17 +197,17 @@ if (failCount >= config.errorLimit)
 <div class="row">
   <div class="col-xs-12 col-md-4">
   <a href="https://jchildren.github.io/image/projects/nt/basic-map-1.png" data-toggle="lightbox" data-gallery="multiimages" data-footer="Some corridors" class="thumbnail">
-  <img src="https://jchildren.github.io/image/projects/nt/basic-map-1.png" height="200" width="100%"/>
+  <img src="https://jchildren.github.io/image/projects/nt/basic-map-1.png" height="200px" width="100%"/>
   </a>
   </div>
   <div class="col-xs-12 col-md-4">
   <a href="https://jchildren.github.io/image/projects/nt/basic-map-2.png" data-toggle="lightbox" data-gallery="multiimages" data-footer="Another corridor example" class="thumbnail">
-  <img src="https://jchildren.github.io/image/projects/nt/basic-map-2.png" height="200" width="100%"/>
+  <img src="https://jchildren.github.io/image/projects/nt/basic-map-2.png" height="200px" width="100%"/>
   </a>
   </div>
   <div class="col-xs-12 col-md-4">
   <a href="https://jchildren.github.io/image/projects/nt/high-room-number.png" data-toggle="lightbox" data-gallery="multiimages" data-footer="Lots of rooms and corridors" class="thumbnail">
-  <img src="https://jchildren.github.io/image/projects/nt/high-room-number.png" height="200" width="100%"/>
+  <img src="https://jchildren.github.io/image/projects/nt/high-room-number.png" height="200px" width="100%"/>
   </a>
   </div>
 </div>
@@ -267,17 +267,17 @@ foreach (int x in width) {
 <div class="row">
   <div class="col-xs-12 col-md-4">
   <a href="https://jchildren.github.io/image/projects/nt/noise-1.png" data-toggle="lightbox" data-gallery="multiimages" data-footer="First noise step" class="thumbnail">
-  <img src="https://jchildren.github.io/image/projects/nt/noise-1.png" height="200" width="100%"/>
+  <img src="https://jchildren.github.io/image/projects/nt/noise-1.png" height="200px" width="100%"/>
   </a>
   </div>
   <div class="col-xs-12 col-md-4">
   <a href="https://jchildren.github.io/image/projects/nt/noise-2.png" data-toggle="lightbox" data-gallery="multiimages" data-footer="Second noise step with obstacles" class="thumbnail">
-  <img src="https://jchildren.github.io/image/projects/nt/noise-2.png" height="200" width="100%"/>
+  <img src="https://jchildren.github.io/image/projects/nt/noise-2.png" height="200px" width="100%"/>
   </a>
   </div>
   <div class="col-xs-12 col-md-4">
   <a href="https://jchildren.github.io/image/projects/nt/obstacles.png" data-toggle="lightbox" data-gallery="multiimages" data-footer="Further noise" class="thumbnail">
-  <img src="https://jchildren.github.io/image/projects/nt/obstacles.png" height="200" width="100%"/>
+  <img src="https://jchildren.github.io/image/projects/nt/obstacles.png" height="200px" width="100%"/>
   </a>
   </div>
 </div>
