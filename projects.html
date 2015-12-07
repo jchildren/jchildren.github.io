@@ -12,7 +12,7 @@ group: "navigation"
   <div class="col-sm-6 col-md-4">
     <a href="{{ project.url }}">
     <div class="thumbnail">
-      <img src="{{ project.thumbnail | prepend: "https://jchildren.github.io/image/projects/" }}" alt="{{ project.alttext }}">
+      <img src="{{ project.thumbnail | prepend: "https://jchildren.github.io/image/projects/" }}" alt="{{ project.alttext }}" height="200">
       <div class="caption">
         <h3>{{ project.title }}</h3>
         <p>{{ project.description | truncatewords:10 }}</p>
