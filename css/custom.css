@@ -55,6 +55,25 @@ div.modal-footer {
 	color:#222;
 }
 
+div.thumbnail {
+	width: 100%;
+    height: 250px;
+    overflow: auto;
+}
+
+div.thumbnail img{
+	width: 100%;
+    height: 150px;
+    overflow: auto;
+}
+
+div.thumbnail .caption{
+	width: 100%;
+    height: 100px;
+    overflow: auto;
+}
+
+
 #toggle-footer {
   width: 32px;
   height: 32px;
